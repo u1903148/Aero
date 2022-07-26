@@ -1,0 +1,15 @@
+.main-header {
+    width: 100%;
+    color: var(--primary-color);
+    border: rgb(43, 16, 43) 2px solid;
+    justify-content: space-around;
+    height: 68px;
+    align-items: center;
+}
+
+.header-link {
+    color: var(--primary-color);
+    font-weight: "400";
+    text-decoration: none;
+    font-size: 1.5rem;
+}

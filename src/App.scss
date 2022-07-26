@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --navbar-height: 68px;
+}
+
+body {
+    padding-top: calc(var(--navbar-height) + 0.5rem);
+}
+
+.item-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.item-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.7em;
+}
+.no-items {
+    color: #c3c3c3;
+    font-style: italic;
+    margin-bottom: 1.25rem;
+    font-size: 1.1rem;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-heading {
+    font-size: 1.6rem;
+    font-weight: "700";
+    margin-bottom: 0;
+    color: white;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+
+.button-holder {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        margin-left: 1rem;
+    }
+}
+
+.divider {
+    border-top: #ccc 1px solid;
+}
+
+.info-field {
+    font-size: 1.1rem;
+    color: #838383;
+}
+.info-field-style {
+    font-size: x-large;
+    font-weight: 600;
+}
+.info-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.hide {
+    display: none;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.full-name{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.email-phone, .address{
+    font-style: italic;
+}
+.final-info {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.pl-35 {
+    padding-left: 35px;
+}
+.description {
+    padding-top: 15px;
+    font-weight: 600;
+    width: 70%;
+}
+.orange {
+    background-color: orange;
+}
+.blue {
+    background-color: steelblue;
+}
+.template-buttons{
+    margin-left: auto;
+    margin-top: 0;
+    .template1{
+        color: black;
+        border-color: darkorange;
+        font-weight: 600;
+        border-width: unset;
+    }
+    .template2{
+        color: black;
+        border-color: steelblue;
+        font-weight: 600;
+        border-width: unset;
+    }
+}
+.rounded-image {
+    border-radius: 50%;
+}
